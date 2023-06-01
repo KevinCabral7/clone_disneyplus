@@ -18,9 +18,21 @@
         background-repeat: no-repeat;
         margin-top: -55px;
     }
+    @media (min-width: 769px) and (max-width: 1023px){        
+        background-image: url(../../dist/images/hero_tablet.jpg);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -77px;
+    }
 
     &__content{
         max-width: 640px;
+
+        @media (min-width: 769px) and (max-width: 1023px){
+            max-width: 600px;
+            margin: 0 auto;
+        }
 
         &__branding{
             max-width: 320px;

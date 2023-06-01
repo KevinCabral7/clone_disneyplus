@@ -56,6 +56,12 @@ body{
     @media (max-width:768px){
         @include text(14px);
     }
+    @media (min-width: 769px) and (max-width: 1023px){
+        @include text(24px);
+    }
+    @media (min-width: 769px) and (max-width: 1023px){
+        @include text (16px)    
+    }
 }
 
 .text--small{
@@ -63,12 +69,21 @@ body{
     @media (max-width:768px){
         @include text(11px);
     }
+    @media (min-width: 769px) and (max-width: 1023px){
+        @include text(16px);
+    }
+    @media (min-width: 769px) and (max-width: 1023px){
+        @include text(12px);
+    }
 }
 
 .title--big{
     @include title(44px);
     @media(max-width:768px){
         @include title(24px)
+    }
+    @media (min-width: 769px) and (max-width: 1023px){
+        @include title(28px)
     }
 
 }
